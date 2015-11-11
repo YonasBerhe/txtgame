@@ -3,7 +3,7 @@ var script = {};
 script.intro = {
   promt: ' What do you teach \n you bastard' + '   1) Text\n 2)Gis and Mapping',
   result: function (choice) {
-   if (choice ==='1') {
+   if (choice === '1') {
     choice.ltc = 'textGame';
     return 'textGame';
   }
@@ -17,9 +17,6 @@ script.intro = {
  }
 }
 }
-
-
-
 
 script.textGame = {
   promt: ' Teach textGame: \n press Enter',

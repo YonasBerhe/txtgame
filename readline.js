@@ -12,9 +12,10 @@ var rl = readline.createInterface({
 run('intro');
 
 function run(name) {
+var scene = script[name];
 
-  var scene = script[name];
 var prompt;
+
 if (typeof scene.prompt === 'function') {
   // console.log(scene.prompt());
   prompt = scene.prompt();
